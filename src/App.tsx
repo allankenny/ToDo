@@ -45,7 +45,7 @@ const App = () => {
     <C.Container>
       <C.Content>
         <C.Header>
-          ToDo
+          <h1 className='gradient-text'>ToDo</h1>
         </C.Header>
         <AddItem  onEnter={handleAddTask} />
         {list && list.map((item, index)=>(
